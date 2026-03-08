@@ -25,6 +25,7 @@ let songs = [
 {title:"Knock Knock",file:"twice-knock-knock.mp3",cover:"imagenes/knock knock.jpg"},
 {title:"Like A Fool",file:"twice-like-a-fool.mp3",cover:"imagenes/like a fool.jpg"},
 {title:"More & More",file:"twice-more-and-more.mp3",cover:"imagenes/more and more.jpg"},
+{title:"One More Time",file:"twice-one-more-time.mp3",cover:"imagenes/one more time.jpg"},
 {title:"Queen Of Hearts",file:"twice-queen-of-hearts.mp3",cover:"imagenes/queen of hearts.jpg"},
 {title:"This Is For",file:"twice-this-is-for.mp3",cover:"imagenes/this is for.jpg"},
 {title:"Touchdown",file:"twice-touchdown.mp3",cover:"imagenes/touchdown.jpg"},
@@ -32,7 +33,6 @@ let songs = [
 {title:"Yes Or Yes",file:"twice-yes-or-yes.mp3",cover:"imagenes/yes or yes.jpg"}
 
 ];
-
 let currentSong = 0;
 
 function loadSong(index){
@@ -157,5 +157,6 @@ img.classList.toggle("zoom");
 
 }
 loadSong(currentSong);
+
 
 
