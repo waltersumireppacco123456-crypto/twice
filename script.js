@@ -156,4 +156,6 @@ img.classList.toggle("zoom");
 
 
 }
+loadSong(currentSong);
+
 
