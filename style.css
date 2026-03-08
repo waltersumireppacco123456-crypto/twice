@@ -175,4 +175,53 @@ width:300px;
 #progress{
 flex:1;
 accent-color:#ff4fa3;
+
+}
+/* ===== RESPONSIVE ===== */
+
+@media (max-width:900px){
+
+.sidebar{
+width:80px;
+}
+
+.main{
+margin-left:80px;
+}
+
+.song-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.bias-img{
+width:180px;
+right:10px;
+}
+
+.group-img{
+width:250px;
+}
+
+}
+
+/* ===== CELULAR ===== */
+
+@media (max-width:600px){
+
+.song-grid{
+grid-template-columns:1fr;
+}
+
+.bias-img{
+width:150px;
+}
+
+.group-img{
+width:200px;
+}
+
+.player{
+height:70px;
+}
+
 }
