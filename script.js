@@ -11,25 +11,25 @@ let isPlaying = false;
 
 let songs = [
 
-{title:"Cheer Up",file:"/cheer-up.mp3",cover:"imagenes/cheer-up.jpg"},
-{title:"Fancy",file:"/twice-fancy.mp3",cover:"imagenes/fancy.jpg"},
-{title:"Likey",file:"/twice-likey.mp3",cover:"imagenes/likey.jpg"},
-{title:"Signal",file:"/twice-signal.mp3",cover:"imagenes/signal.jpg"},
-{title:"What is Love",file:"/what-is-love.mp3",cover:"imagenes/what-is-love.jpg"},
-{title:"Alcohol Free",file:"/twice-alcohol-free.mp3",cover:"imagenes/alcohol free.jpg"},
-{title:"Candy Boy",file:"/twice-candy-boy.mp3",cover:"imagenes/candy boy.jpg"},
-{title:"Candy Pop",file:"/twice-candy-pop.mp3",cover:"imagenes/candy pop.jpg"},
-{title:"Feel Special",file:"/twice-feel-special.mp3",cover:"imagenes/feel special.jpg"},
-{title:"I'm Gonna Be A Star",file:"/twice-im-gonna-be-a-star.mp3",cover:"imagenes/i'm gonna be a star.jpg"},
-{title:"Jelly Jelly",file:"/twice-jelly-jelly.mp3",cover:"imagenes/jelly jelly.jpg"},
-{title:"Knock Knock",file:"/twice-knock-knock.mp3",cover:"imagenes/knock knock.jpg"},
-{title:"Like A Fool",file:"/twice-like-a-fool.mp3",cover:"imagenes/like a fool.jpg"},
-{title:"More & More",file:"/twice-more-and-more.mp3",cover:"imagenes/more and more.jpg"},
-{title:"Queen Of Hearts",file:"/twice-queen-of-hearts.mp3",cover:"imagenes/queen of hearts.jpg"},
-{title:"This Is For",file:"/twice-this-is-for.mp3",cover:"imagenes/this is for.jpg"},
-{title:"Touchdown",file:"/twice-touchdown.mp3",cover:"imagenes/touchdown.jpg"},
-{title:"TT",file:"/twice-tt.mp3",cover:"imagenes/tt.jpg"},
-{title:"Yes Or Yes",file:"/twice-yes-or-yes.mp3",cover:"imagenes/yes or yes.jpg"}
+{title:"Cheer Up",file:"cheer-up.mp3",cover:"imagenes/cheer-up.jpg"},
+{title:"Fancy",file:"twice-fancy.mp3",cover:"imagenes/fancy.jpg"},
+{title:"Likey",file:"twice-likey.mp3",cover:"imagenes/likey.jpg"},
+{title:"Signal",file:"twice-signal.mp3",cover:"imagenes/signal.jpg"},
+{title:"What is Love",file:"what-is-love.mp3",cover:"imagenes/what-is-love.jpg"},
+{title:"Alcohol Free",file:"twice-alcohol-free.mp3",cover:"imagenes/alcohol free.jpg"},
+{title:"Candy Boy",file:"twice-candy-boy.mp3",cover:"imagenes/candy boy.jpg"},
+{title:"Candy Pop",file:"twice-candy-pop.mp3",cover:"imagenes/candy pop.jpg"},
+{title:"Feel Special",file:"twice-feel-special.mp3",cover:"imagenes/feel special.jpg"},
+{title:"I'm Gonna Be A Star",file:"twice-im-gonna-be-a-star.mp3",cover:"imagenes/i'm gonna be a star.jpg"},
+{title:"Jelly Jelly",file:"twice-jelly-jelly.mp3",cover:"imagenes/jelly jelly.jpg"},
+{title:"Knock Knock",file:"twice-knock-knock.mp3",cover:"imagenes/knock knock.jpg"},
+{title:"Like A Fool",file:"twice-like-a-fool.mp3",cover:"imagenes/like a fool.jpg"},
+{title:"More & More",file:"twice-more-and-more.mp3",cover:"imagenes/more and more.jpg"},
+{title:"Queen Of Hearts",file:"twice-queen-of-hearts.mp3",cover:"imagenes/queen of hearts.jpg"},
+{title:"This Is For",file:"twice-this-is-for.mp3",cover:"imagenes/this is for.jpg"},
+{title:"Touchdown",file:"twice-touchdown.mp3",cover:"imagenes/touchdown.jpg"},
+{title:"TT",file:"twice-tt.mp3",cover:"imagenes/tt.jpg"},
+{title:"Yes Or Yes",file:"twice-yes-or-yes.mp3",cover:"imagenes/yes or yes.jpg"}
 
 ];
 
@@ -156,3 +156,4 @@ img.classList.toggle("zoom");
 
 
 }
+
